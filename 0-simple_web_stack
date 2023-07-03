@@ -1,30 +1,20 @@
 https://app.diagrams.net/?src=about#G1T2-GnWCuADMsJx71-yfVt47tRm_C_h_m
 
-    Why are server's are generally located in a data centers?:
+ -   Why are server's are generally located in a data centers?:
 Servers are generally located in data centers for several reasons:
-1 - Infrastructure: Data centers are purpose built facilities designed to house servers and networking equipment.
-2 - Connectivity: Data centers are typically connected to high-speed internet connections with multiple network providers. 
-3 - Security: Data centers have robust physical security measures in place to protect the servers from unauthorized access
-and potential physical threats. These measures can include biometric access controls, video surveillance, and security personnel.
-4 - Redundancy: Data centers often have redundant systems and infrastructure to minimize the risk of downtime. 
-This includes backup power supplies, redundant networking equipment, and multiple internet connections. 
-5 - Scalability: Data centers are designed to accommodate a large number of servers and can easily scale their infrastructure as needed. 
+1 - Infrastructure: Data centers are purpose built facilities designed to house servers.
+2 - Connectivity: Data centers are typically connected to high-speed internet connections. 
+3 - Security: Data centers have robust physical security to protect the servers.
+4 - Redundancy: Data centers have redundant systems and infrastructure to minimize the risk of downtime.
 
-    Physical and virtual servers:
+  -  Physical and virtual servers:
 Physical servers and virtual servers are two different approaches to hosting and managing computer resources.
-1 - Physical server refers to a physical machine, that is dedicated to running specific applications or services.
+    1 - A physical server is dedicated to running specific applications or services.
 It consists of hardware components such as processors, memory, storage devices, and networking interfaces. 
-Physical servers are typically housed in data centers or server rooms and require physical maintenance and management. 
-    Advantages: 
-        - High performance: Physical servers can provide excellent performance for resource-intensive applications because they have dedicated hardware resources.
-        - Full control: Administrators have complete control over the hardware and can fine-tune the server to meet specific requirements.
-        - Security: Physical servers can provide better security since they are not susceptible to vulnerabilities in virtualization software.
-    Disavantages:
-        - Cost: Physical servers require upfront costs for purchasing hardware, and ongoing costs for maintenance and power.
-        - Scalability: Expanding the capacity of physical servers often involves purchasing additional hardware and the space the need.
-        -
-        -
-        -
+Physical servers are typically in data centers or server rooms and require physical maintenance and management. 
+    2 - Virtaul Servers: A virtual server, aka virtual machine (VM), is a software emulation of a physical server. It allows multiple virtual
+servers to run on a single physical server, sharing the underlying hardware resources. Each virtual server operates as an
+isolated entity with its own operating system, applications, and resources.
 
     server's runs on an OS:
     web server's role is to serve web pages:
