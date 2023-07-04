@@ -1,13 +1,15 @@
 diagram - https://app.diagrams.net/?src=about#G1T2-GnWCuADMsJx71-yfVt47tRm_C_h_m
 
 1   Why are server's are generally located in a data centers?
+____________________________________________________________
 Servers are generally located in data centers for several reasons:
     - Infrastructure: Data centers are purpose built facilities designed to house servers.
     - Connectivity: Data centers are typically connected to high-speed internet connections. 
     - Security: Data centers have robust physical security to protect the servers.
     - Redundancy: Data centers have redundant systems and infrastructure to minimize the risk of downtime.
 
-2   Physical and virtual servers
+2   Physical and virtual servers:
+________________________________
 Physical servers and virtual servers are two different approaches to hosting and managing computer resources.
     - Physical servers: a physical server is dedicated to running specific applications or services.
 It consists of hardware components such as processors, memory, storage devices, and networking interfaces. 
@@ -17,14 +19,17 @@ allows multiple virtual servers to run on a single physical server, sharing the 
 Each virtual server operates as an isolated entity with its own operating system, applications, and resources.
 
 3   Does servers run on an OS(operating system)?
+________________________________________________
 A server is a computer that is designed to provide resources, services, or functionality and it runs in an (OS) just like
 any other computer and this OS's in general as linux-base but can be windows servers and mac servers as well.
 
 4    Web server's role is to serve web pages (static content):
+______________________________________________________________
 A web server is a software application or computer system that receives requests from clients (usually web browsers) and delivers
 responses over the internet. It acts as the intermediary between clients and the web pages they are trying to access.
 
 5   Servers role to compute dynamic content:
+____________________________________________
 Servers play a crucial role in computing dynamic content for websites and web applications. When a user accesses a website,
 the server processes the user's request and generates the dynamic content on the fly, tailoring it based on the specific user's
 needs and preferences. Here's a brief list of the server's role in computing dynamic content:
@@ -35,39 +40,47 @@ scripts, and logic to generate the dynamic conten
     - Personalization: Servers can use the user's information or previous interactions to personalize the dynamic content
     
 6   Database role is to store application data:
+_______________________________________________
 A database's primary role is to store and manage application data. It provides a structured way to organize, store, retrieve,
 and manipulate large volumes of data efficiently. Applications rely on databases to store various types of information,
 such as user profiles, product catalogs, transaction records, and much more.
 
 7   DNS's role is to translate the record of a domain name into an IP address:
+______________________________________________________________________________
 DNS is a hierarchical naming system that maps domain names to their associated IP addresses. It acts as a
 distributed database, allowing users to easily access websites and other resources on the internet using
 human-readable domain names instead of numeric IP addresses.
 
 8   www.foobar.com is an A record because it resolves to an IP address:
+_______________________________________________________________________
 An A record is a type of DNS record that is used to point a domain name to the corresponding IP address. It translates
 a domain name to an IPv4 address. When a user enters a domain name in their web browser, the DNS resolver looks up the
 A record associated with that domain to find the IP address of the server hosting the website.
 
 
 9   This server is a single point of failure because nothing is redundant:
+__________________________________________________________________________
 A single point of failure refers that, if something fails, can cause the entire system to fail. 
 And in our case we dont have redundancy because we dont have backup components that can take over the functions in case of failure.
 
 
 10  The website would be temporarily down when new code is deployed and the web server needs to be restarted:
+_____________________________________________________________________________________________________________
 
 
 
 
 
 11  This infrastructure cannot scale and will not be able to handle traffic that would exceed the server capacity:
+__________________________________________________________________________________________________________________
+
 
 
 
 
 
 12  The server is communicating over a network (TCP/IP):
+________________________________________________________
 
 
 
