@@ -66,22 +66,15 @@ And in our case we dont have redundancy because we dont have backup components t
 
 10  The website would be temporarily down when new code is deployed and the web server needs to be restarted:
 _____________________________________________________________________________________________________________
-
-
-
-
+When maintenance tasks like new code or updating server configurations are required, the web server
+needs to be restarted. During this maintenance period, the website will experience downtime.
 
 11  This infrastructure cannot scale and will not be able to handle traffic that would exceed the server capacity:
 __________________________________________________________________________________________________________________
-
-
-
-
-
+With only one server, it has a finite capacity to handle incoming traffic.
+If the website experiences a sudden surge in traffic, the server may become overwhelmed and unable to
+ handle the load efficiently, resulting in slow response times or even crashes.
 
 12  The server is communicating over a network (TCP/IP):
 ________________________________________________________
-
-
-
-
+The server is communicating with the computer of the user requesting the website over a network using the TCP/IP protocol
