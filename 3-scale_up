@@ -1,1 +1,4 @@
 diagram - https://app.diagrams.net/?src=about#G1Gvi-Z6uZoyRc-3wpatW-2hYk2xyEE-6K
+
+1   The load balancer is configured as a cluster so that if one fails, the other takes over:
+Configuring a load balancer as a cluster is a common practice to ensure high availability and fault tolerance. In such a configuration, multiple load balancer instances are set up as a cluster, and they work together to distribute incoming traffic across a group of servers or backend resources.

@@ -1,1 +1,7 @@
 diagram - https://app.diagrams.net/?src=about#G1RDmk_i_E-uzCMkIWxtCTA_hGXFyPYpll
+
+1   Load balancer can be configured in two primary setups: active-active and active-passive:
+    - Active-Active Setup:
+In an active-active setup, the load balancer distributes traffic across multiple servers or resources that are actively serving requests. All servers share the workload, allowing for higher availability and scalability. This configuration is commonly used when high performance and load balancing are crucial. If one server fails, the load balancer automatically redirects traffic to the remaining active servers, ensuring continuity.
+    - Active-Passive Setup:
+In an active-passive setup, the load balancer directs all traffic to a primary or active server, while one or more backup or passive servers remain idle. The backup servers come into action only if the primary server fails or becomes unavailable. In this configuration, the load balancer monitors the health of the active server and redirects traffic to the passive servers when needed.
